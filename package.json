@@ -1,0 +1,44 @@
+{
+  "name": "product-listing-clone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "author": "Alish vagadiya",
+  "license": "ISC",
+  "private": true,
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "bugs": {
+    "url": "https://github.com/alishvagadiya/are-you-human-captcha-signup/issues"
+  },
+  "proxy": "http://localhost:5000",
+  "homepage": "."
+}
+
