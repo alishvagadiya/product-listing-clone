@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #f1f1f1;
+}
+
+.app-header {
+  text-align: center;
+}
+
+
+.app-body {
+  margin: 0rem 2rem 0rem 2rem;
+}
+
+.container{
+  display: grid;
+  grid-template-areas:
+    'sidebar mainBlock';
+      grid-template-columns: 25% 75%;
+
+}
+
+.sidebar { 
+  grid-area: sidebar; 
+  margin: 2rem;
+  background-color: white;
+/* max-width: 25%; */
+}
+
+.mainBlock { 
+  grid-area: mainBlock;
+  margin: 2rem;
+
+}
+.flexWraper{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.box{
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+.box > h2{
+  padding: 0.5rem;
+  margin: 0;
+}
+.box > label{
+  padding: 0.5rem;
+  font-size: medium;
+  font-weight: 600;
+}
+.productDetails{
+  padding: 1em;
+  border: 1px solid black;
+  margin: 1em;
+  background-color: white;
+}
